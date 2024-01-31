@@ -19,12 +19,13 @@ public class DemoEstructuras02 {
         String[] edades = {"10", "11", "12", "9", "2", "1"};
         List edadesLista = Arrays.asList(edades);
         ArrayList<String> edades2 = new ArrayList<>(edadesLista);
+        System.out.println(edades);
         System.out.println(edades2);
-        /*
+        
         for (int i = 0; i < edades2.size(); i++) {
             System.out.printf("%s\n", edades2.get(i));
         }
-        */
+        
 
     }
 }
